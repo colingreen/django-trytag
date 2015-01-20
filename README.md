@@ -1,6 +1,8 @@
 # django-trytag
 A simple try...except tag for debugging and bodging Django templates.
 
+Sometimes, to get your chickens and eggs in order, you need to suppress Django template errors...
+
 ## Usage
 Add `trytag` to your installed apps.
 
