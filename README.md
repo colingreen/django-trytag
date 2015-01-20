@@ -1,7 +1,9 @@
 # django-trytag
 A simple try...except tag for debugging and bodging Django templates.
 
-Sometimes, to get your chickens and eggs in order, you need to suppress Django template errors...
+Why would this be useful? I wrote this to stop `{% url ... %}` tags with missing urlconf entries from halting template rendering during development. It might be useful, should you find yourself in a similar situation.
+
+Note to self: If you find yourself using this too much, you're probably doing it wrong.
 
 ## Usage
 Add `trytag` to your installed apps.
